@@ -1,0 +1,18 @@
+{
+    "version": "0.1",
+    "requires": "biothings_client",
+    "__metadata__": {
+        "license_url": "https://skr3.nlm.nih.gov/SemMedDB/",
+        "licence": "CC BY 4.0",
+        "url": "https://skr3.nlm.nih.gov/SemMedDB/"
+    },
+    "dumper": {
+        "data_url": "https://raw.githubusercontent.com/kevinxin90/tcga_mut_freq_kp/master/TCGA_Mut_Freq%20-%20TCGA_Mut_Freq.csv",
+        "uncompress": true,
+        "release": "version:get_release"
+    },
+    "uploader": {
+        "parser": "parser:load_data",
+        "on_duplicates": "error"
+    }
+}
