@@ -63,6 +63,7 @@ def load_data(data_folder):
                 },
                 "object": {
                     "id": DISEASE_NAME_ID_MAPPING[disease_abbr],
+                    "tcga_name": disease_abbr,
                     "MONDO": DISEASE_NAME_ID_MAPPING[disease_abbr],
                     "type": "disease"
                 },
