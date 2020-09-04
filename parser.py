@@ -45,7 +45,7 @@ DISEASE_NAME_ID_MAPPING = {
 }
 
 def load_data(data_folder):
-    path = os.path.join(data_folder, "TCGA_Mut_Freq - TCGA_Mut_Freq.csv")
+    path = os.path.join(data_folder, "data.csv")
     with open(path) as f:
         reader = csv.reader(f, delimiter=',')
         next(reader)

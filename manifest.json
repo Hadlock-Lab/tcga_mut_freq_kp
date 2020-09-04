@@ -7,7 +7,7 @@
         "url": "https://skr3.nlm.nih.gov/SemMedDB/"
     },
     "dumper": {
-        "data_url": "https://raw.githubusercontent.com/kevinxin90/tcga_mut_freq_kp/master/TCGA_Mut_Freq%20-%20TCGA_Mut_Freq.csv",
+        "data_url": "https://raw.githubusercontent.com/kevinxin90/tcga_mut_freq_kp/master/data.csv",
         "uncompress": true,
         "release": "version:get_release"
     },
